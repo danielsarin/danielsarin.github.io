@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister);
+
+/* http://dilbert.com/strips/comic/2010-04-01/ */
+
+body {
+  background-color: #eee;
+  font-family: 'Love Ya Like A Sister', cursive;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.content {
+  margin: 0 20px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.obfuscate {
+  display: none;
+}
+
+img.me {
+  float: right;
+  margin-top: 30px;
+}
+
+.intro {
+  margin-right: 230px;
+}
+
+.intro h1 {
+  display: inline-block;
+  font-size: 3em;
+}
+
+.intro .caption {
+  float: right;
+  font-size: 1.2em;
+  margin-top: 80px;
+}
+
+.intro h2 {
+  font-weight: normal;
+}
+
+.intro ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.contact h5 {
+  margin: 20px 0 0;
+}
+
+.contact a {
+  margin-right: 5px;
+}
+
+.section {
+  clear: both;
+  margin-top: 70px;
+}
+
+.section a {
+  font-weight: bold;
+}
