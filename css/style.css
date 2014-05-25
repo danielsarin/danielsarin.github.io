@@ -160,6 +160,7 @@ img.me {
 
 .images {
   float: right;
+  padding-right: 20px;
   width: 40%;
 }
 
@@ -168,13 +169,17 @@ img.me {
   cursor: pointer;
   display: inline-block;
   float: left;
-  margin: 0px 5px 20px 20px;
+  margin: 0px 0px 20px 20px;
 }
 
 .thumbnail img {
   height: auto;
   max-height: 60px;
   width: auto;
+}
+
+.tag-container {
+  clear: both;
 }
 
 .tag {
