@@ -97,19 +97,13 @@ img.me {
   display: inline-block;
   float: left;
   padding: 10px;
-  width: 50%;
+  width: 100%;
   vertical-align: top;
 }
 
 @media (min-width: 800px) {
   .half {
     width: 50%;
-  }
-}
-
-@media (max-width: 799px) {
-  .half {
-    width: 100%;
   }
 }
 
